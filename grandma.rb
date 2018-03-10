@@ -20,6 +20,6 @@ def speak_to_grandma(str)
     puts "I LOVE YOU TOO PUMPKIN!"
   else
     puts "NO, NOT SINCE 1938!"
-    binding.pry
   end
 end
+binding.pry

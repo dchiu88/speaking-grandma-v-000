@@ -12,7 +12,7 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-
+require 'pry'
 def speak_to_grandma(str)
   if str != str.upcase
     puts "HUH?! SPEAK UP, SONNY!"
@@ -22,3 +22,4 @@ def speak_to_grandma(str)
     puts "NO, NOT SINCE 1938!"
   end
 end
+binding.pry
